@@ -6,6 +6,20 @@ h2{
     margin: 0px;
 }
 
+.intro-container{
+    display: flex;
+}
+
+.intro-text{
+    margin-right: auto;
+}
+
+.intro-visual{
+    border: 1px solid white;
+    width: 45%;
+    height: 400px;
+}
+
 .name{
     margin-left: 50px;
 }
@@ -27,7 +41,7 @@ body{
     color: white;
 }
 
-.nav-links{
+.nav-link-container{
     display: flex;
     margin: 0px;
     margin-left: auto;
@@ -35,6 +49,33 @@ body{
     margin-right: 45px;
 }
 
-.nav-links > li{
+.nav-link-container > li{
     list-style-type: none;
+}
+
+.nav-link-container > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.expertise-panel{
+    display: flex;
+    gap: 45px;
+    border: 1px white solid;
+}
+
+.intro-visual{
+    position: relative;
+}
+
+.vs-icon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.github-icon{
+    position: absolute;
+    bottom: 45px;
+    right: 15px;
 }
