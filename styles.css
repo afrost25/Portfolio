@@ -1,0 +1,40 @@
+:root{
+    --background-color: rgb(19, 23, 32);
+}
+
+h2{
+    margin: 0px;
+}
+
+.name{
+    margin-left: 50px;
+}
+
+main{
+    color: white;
+}
+
+body{
+    height: 100%;
+    background-color: var(--background-color);
+    font-family: Roboto;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    margin: 0px;
+    margin-left: auto;
+    gap: 50px;
+    margin-right: 45px;
+}
+
+.nav-links > li{
+    list-style-type: none;
+}
