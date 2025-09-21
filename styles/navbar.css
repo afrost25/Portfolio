@@ -1,0 +1,35 @@
+.name{
+    margin-left: 50px;
+    color: var(--primary-green);
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    background-color: var(--background-secondary);
+    color: var(--text-light);
+    border-bottom: 1px solid var(--accent-green);
+}
+
+.nav-link-container{
+    display: flex;
+    margin: 0px;
+    margin-left: auto;
+    gap: 50px;
+    margin-right: 45px;
+}
+
+.nav-link-container > li{
+    list-style-type: none;
+}
+
+.nav-link-container > li > a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link-container > li > a:hover {
+    color: var(--primary-green);
+}

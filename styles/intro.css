@@ -1,0 +1,41 @@
+.intro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+
+}
+
+.intro-text{
+
+
+}
+
+.role-txt{
+    font-size: 60px;
+    color: var(--primary-green);
+}
+
+.hello-txt{
+    font-size: 50px;
+    color: var(--text-light);
+}
+
+.name-txt{
+    margin-left: 40px;
+    font-size: 50px;
+    color: var(--text-light);
+    border-bottom: 2px solid var(--accent-green);
+}
+
+.resume-btn{
+    margin: 40px 0px;
+}
+
+.intro-visual{
+    width: 45%;
+    height: 400px;
+    border-radius: 8px;
+    position: relative;
+    background: radial-gradient(circle 200px, var(--secondary-green), var(--background-color));
+}

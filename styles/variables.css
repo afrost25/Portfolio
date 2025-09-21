@@ -1,0 +1,11 @@
+/* CSS Variables */
+:root{
+    --background-color: #0a1408;
+    --background-secondary: #111a0b;
+    --primary-green: #22c55e;
+    --secondary-green: #16a34a;
+    --accent-green: #15803d;
+    --text-light: #dcfce7;
+    --text-muted: #bbf7d0;
+    --foreground-color: var(--primary-green);
+}
