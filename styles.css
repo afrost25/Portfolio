@@ -1,5 +1,12 @@
 :root{
-    --background-color: rgb(19, 23, 32);
+    --background-color: #0a1408;
+    --background-secondary: #111a0b;
+    --primary-green: #22c55e;
+    --secondary-green: #16a34a;
+    --accent-green: #15803d;
+    --text-light: #dcfce7;
+    --text-muted: #bbf7d0;
+    --foreground-color: var(--primary-green);
 }
 
 h2{
@@ -8,24 +15,50 @@ h2{
 
 .intro-container{
     display: flex;
+    border-bottom: 1px solid var(--primary-green);
+
 }
 
 .intro-text{
     margin-right: auto;
+    margin-left: 400px;
+}
+
+.role-txt{
+    font-size: 60px;
+    color: var(--primary-green);
+}
+
+.hello-txt{
+    font-size: 50px;
+    color: var(--text-light);
+}
+
+.name-txt{
+    margin-left: 40px;
+    font-size: 50px;
+    color: var(--text-light);
+    border-bottom: 2px solid var(--accent-green);
+}
+
+.resume-btn{
+    margin: 40px 0px;
 }
 
 .intro-visual{
-    border: 1px solid white;
     width: 45%;
     height: 400px;
+    border-radius: 8px;
 }
 
 .name{
     margin-left: 50px;
+    color: var(--primary-green);
+    font-weight: 600;
 }
 
 main{
-    color: white;
+    color: var(--text-light);
 }
 
 body{
@@ -37,8 +70,9 @@ body{
 .navbar{
     display: flex;
     padding: 10px;
-    background-color: var(--background-color);
-    color: white;
+    background-color: var(--background-secondary);
+    color: var(--text-light);
+    border-bottom: 1px solid var(--accent-green);
 }
 
 .nav-link-container{
@@ -54,28 +88,129 @@ body{
 }
 
 .nav-link-container > li > a {
-    color: white;
+    color: var(--text-muted);
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link-container > li > a:hover {
+    color: var(--primary-green);
 }
 
 .expertise-panel{
     display: flex;
     gap: 45px;
-    border: 1px white solid;
+    border: 1px var(--accent-green) solid;
+    border-radius: 8px;
 }
 
 .intro-visual{
     position: relative;
+    background: radial-gradient(circle 200px, var(--secondary-green), var(--background-color));
+}
+
+.tech-icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.linkedin-icon{
+    width: 22px;
+    height: 22px;
 }
 
 .vs-icon{
-    position: absolute;
     top: 10px;
     left: 20px;
 }
 
 .github-icon{
-    position: absolute;
     bottom: 45px;
     right: 15px;
+}
+
+.css-icon{
+    left: 45px;
+    bottom: 56px;
+}
+
+.typescript-icon{
+    left: 65px;
+    bottom: 15px;
+}
+
+.javascript-icon{
+    right: 56px;
+    bottom: 102px;
+}
+
+.html-icon{
+    right: 10px;
+    top: 10px;
+}
+
+button{
+    background-color: var(--primary-green);
+    color: var(--background-color);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: var(--secondary-green);
+}
+
+.bio-section{
+    padding: 60px 50px;
+    max-width: 1200px;
+}
+
+.bio-section h2{
+    color: var(--primary-green);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bio-section h3{
+    color: var(--text-light);
+    font-size: 24px;
+    margin: 40px 0 20px 0;
+}
+
+.bio-section p{
+    color: var(--text-muted);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.projects-preview{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.project-card{
+    background-color: var(--background-secondary);
+    border: 1px solid var(--accent-green);
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1;
+}
+
+.project-card h4{
+    color: var(--primary-green);
+    font-size: 20px;
+    margin: 0 0 12px 0;
+}
+
+.project-card p{
+    color: var(--text-muted);
+    font-size: 16px;
+    margin: 0;
 }

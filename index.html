@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<script src="index.js" defer></script>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 	</head>
 	<body>
@@ -19,21 +20,44 @@
 		<main>
 			<section class="intro-container">
 				<div class="intro-text">
-					<h1>Hello World!</h1>
-					<h2>I'm Austin</h2>
-					<h2>Software Engineer</h2>
-					<div>
-						<button>Resume</button>
-						<button>About Me</button>
-					</div>
+					<p class="hello-txt">Hello World<span style="color: var(--foreground-color)">!</span></p>
+					<p class="name-txt">I'm Austin</p>
+					<h2 class="role-txt">Software Engineer</h2>
+					<button class="resume-btn">Resume</button>
 				</div>
 				<div class="intro-visual">
-					<img class="vs-icon" src="./icons/icons8-visual-studio.svg">
-					<img class="github-icon" src="./icons/icons8-github.svg">
-					<img class="css-icon" src="./icons/icons8-css3.svg">  
-					<img clas="javascript-icon" src="./icons/icons8-javascript.svg">
-					<img class="typescript-icon" src="./icons/icons8-typescript.svg">
-					<img class="html-icon" src="./icons/icons8-html5.svg">
+					<img class="tech-icon vs-icon" src="./icons/Visual Studio.svg">
+					<img class="tech-icon github-icon" src="./icons/GitHub.svg">
+					<img class="tech-icon css-icon" src="./icons/CSS3.svg">  
+					<img class="tech-icon typescript-icon" src="./icons/TypeScript.svg">
+					<img class="tech-icon html-icon" src="./icons/HTML5.svg">
+					<img class="tech-icon javascript-icon" src="./icons/JavaScript.svg">
+					<img class="tech-icon vite-icon" src="./icons/Vite.js.svg">
+					<img class="tech-icon csharp-icon" src="./icons/CSharp.svg">
+					<img class="tech-icon cpp-icon" src="./icons/C++ (CPlusPlus).svg">
+					<img class="tech-icon c-icon" src="./icons/C.svg">
+					<img class="tech-icon node-icon" src="./icons/Node.js.svg">
+					<img class="tech-icon java-icon" src="./icons/Java.svg">
+					<img class="tech-icon wasm-icon" src="./icons/WebAssembly.svg">
+					<img class="tech-icon vscode-icon" src="./icons/Visual Studio Code (VS Code).svg">
+					<img class="tech-icon react-icon" src="./icons/React.svg">
+					<img class="tech-icon tailwind-icon" src="./icons/Tailwind CSS.svg"> 
+				</div>
+			</section>
+			<section class="bio-section">
+				<h2>About</h2>
+				<p>Software engineer on a mission to redefine full-stack development. I bridge low-level systems with modern web technologies, bringing expertise from reverse engineering to responsive interfaces.</p>
+
+				<h3>Current Projects</h3>
+				<div class="projects-preview">
+					<div class="project-card">
+						<h4>Reverse Engineering IDE</h4>
+						<p>A flagship web-based IDE for reverse engineering, bringing low-level analysis tools to the browser.</p>
+					</div>
+					<div class="project-card">
+						<h4>Hex Editor</h4>
+						<p>Modern hex editor with advanced binary analysis capabilities.</p>
+					</div>
 				</div>
 			</section>
 		</main>	
