@@ -1,11 +1,11 @@
 /* CSS Variables */
 :root{
-    --background-color: #0a1408;
-    --background-secondary: #111a0b;
-    --primary-green: #22c55e;
-    --secondary-green: #16a34a;
-    --accent-green: #15803d;
-    --text-light: #dcfce7;
-    --text-muted: #bbf7d0;
-    --foreground-color: var(--primary-green);
+    --background-color: #212121;
+    --background-secondary: #181818;
+    --primary-purple: #4d2768;
+    --secondary-purple: #67308d;
+    --accent-green: #724a90;
+    --text-light: #916eac;
+    --text-muted: #916eac;
+    --foreground-color: var(--primary-purple);
 }
