@@ -1,89 +1,72 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Austin's Portfolio</title>
-		<link rel="stylesheet" href="styles/main.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<script src="index.js" defer></script>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<nav class="navbar">
-			<h2 class="name">Austin Frost</h2>
-			<ul class="nav-link-container">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="experience.html">Experience</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</nav>
-		<main>
-			<section class="intro-container">
-				<div class="intro-text">
-					<p class="hello-txt">Hello World<span style="color: var(--foreground-color)">!</span></p>
-					<p class="name-txt">I'm Austin</p>
-					<h2 class="role-txt">Software Engineer</h2>
-					<button class="resume-btn">Resume</button>
-				</div>
-				<div class="intro-visual">
-					
-				</div>
-			</section>
-			<section class="bio-section">
-				<h3>About</h3>
-				<p class="project-card">Software engineer on a mission to redefine full-stack development. I bridge low-level systems with modern web technologies, bringing expertise from reverse engineering to responsive interfaces.</p>
-				<h3>Skills</h3>
-				<div class="skills-container">
-					<div class="skill-item">
-						<img src="./assets/icons/TypeScript.svg">
-						<p>TypeScript</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/JavaScript.svg">
-						<p>JavaScript</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/Node.js.svg">
-						<p>Node.js</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/HTML5.svg">
-						<p>HTML</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/CSS3.svg">
-						<p>CSS</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/WebAssembly.svg">
-						<p>WASM</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/React.svg">
-						<p>React</p>
-					</div>
-					<div class="skill-item">
-						<img src="./assets/icons/Vite.js.svg">
-						<p>Vite</p>
-					</div>	
-					<div class="skill-item">
-						<img src="./assets/icons/CSharp.svg">
-						<p>C#</p>
-					</div>
-				</div>
-				<h3>Current Projects</h3>
-				<div class="projects-preview">
-					<div class="project-card">
-						<h4>Reverse Engineering IDE</h4>
-						<p>A flagship web-based IDE for reverse engineering, bringing low-level analysis tools to the browser.</p>
-					</div>
-					<div class="project-card">
-						<h4>Hex Editor</h4>
-						<p>Modern hex editor with advanced binary analysis capabilities.</p>
-					</div>
-				</div>
-			</section>
-		</main>	
-	</body>
-</html>
+---
+layout: default
+title: Austin's Portfolio
+---
+
+<main>
+	<section class="intro-container">
+		<div class="intro-text">
+			<p class="hello-txt">Hello World<span style="color: var(--foreground-color)">!</span></p>
+			<p class="name-txt">I'm Austin</p>
+			<h2 class="role-txt">Software Engineer</h2>
+			<button class="resume-btn">Resume</button>
+		</div>
+		<div class="intro-visual">
+			
+		</div>
+	</section>
+	<section class="bio-section">
+		<h3>About</h3>
+		<p class="project-card">Software engineer on a mission to redefine full-stack development. I bridge low-level systems with modern web technologies, bringing expertise from reverse engineering to responsive interfaces.</p>
+		<h3>Skills</h3>
+		<div class="skills-container">
+			<div class="skill-item">
+				<img src="./assets/icons/TypeScript.svg">
+				<p>TypeScript</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/JavaScript.svg">
+				<p>JavaScript</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/Node.js.svg">
+				<p>Node.js</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/HTML5.svg">
+				<p>HTML</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/CSS3.svg">
+				<p>CSS</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/WebAssembly.svg">
+				<p>WASM</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/React.svg">
+				<p>React</p>
+			</div>
+			<div class="skill-item">
+				<img src="./assets/icons/Vite.js.svg">
+				<p>Vite</p>
+			</div>	
+			<div class="skill-item">
+				<img src="./assets/icons/CSharp.svg">
+				<p>C#</p>
+			</div>
+		</div>
+		<h3>Current Projects</h3>
+		<div class="projects-preview">
+			<div class="project-card">
+				<h4>Reverse Engineering IDE</h4>
+				<p>A flagship web-based IDE for reverse engineering, bringing low-level analysis tools to the browser.</p>
+			</div>
+			<div class="project-card">
+				<h4>Hex Editor</h4>
+				<p>Modern hex editor with advanced binary analysis capabilities.</p>
+			</div>
+		</div>
+	</section>
+</main>	
