@@ -7,7 +7,7 @@ title: Projects
     <ul>
         <li class="project-card">
             <h3>Personal Projects</h3>
-            <ul>
+            <!-- <ul>
                 <li>
                     Reverse Engineering IDE (Flagship Project)
                     <ul>
@@ -16,6 +16,13 @@ title: Projects
                     </ul>
                 </li>
                 <li>React Hex Editor: Modern web-based binary file editor</li>
+            </ul> -->
+            <ul>
+                {% for project in site.projects %}
+                    <li>
+                        {{project.name}}
+                    </li>
+                {% endfor %}
             </ul>
         </li>
     </ul>
